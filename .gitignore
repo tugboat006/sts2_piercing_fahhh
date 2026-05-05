@@ -1,4 +1,6 @@
 bin/
 obj/
+*.dll
+*.pck
 *.user
 .vs/
