@@ -1,0 +1,157 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Alchyr.Sts2.BaseLib/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/BaseLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/BaseLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "GodotSharp/4.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/GodotSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/GodotSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alchyr.Sts2.BaseLib/3.1.0": {
+      "sha512": "O30DoAe5NT9MCVyFqTjrx1GgsOBjKOj4BJduFFEwPcti82jqjEsjXO575QFzpokxFC0VDHUmijhBfz/Bc2+cVg==",
+      "type": "package",
+      "path": "alchyr.sts2.baselib/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/BaseLib.json",
+        "Content/BaseLib.pck",
+        "Content/BaseLib.props",
+        "README.md",
+        "alchyr.sts2.baselib.3.1.0.nupkg.sha512",
+        "alchyr.sts2.baselib.nuspec",
+        "lib/net9.0/BaseLib.dll",
+        "lib/net9.0/BaseLib.xml"
+      ]
+    },
+    "GodotSharp/4.4.0": {
+      "sha512": "4CQWLbgUVXU/yQjKafkIs204kVd3R4D6qnYcwC9HHv33xfAninl3j0AcPQgFU2eVmGYNEHnIXUZtrZh7WU5tig==",
+      "type": "package",
+      "path": "godotsharp/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "godotsharp.4.4.0.nupkg.sha512",
+        "godotsharp.nuspec",
+        "lib/net8.0/GodotSharp.dll",
+        "lib/net8.0/GodotSharp.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Alchyr.Sts2.BaseLib >= *",
+      "GodotSharp >= 4.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Student\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Spire 2\\mods\\PiercingWailSound\\PiercingWailSound.csproj",
+      "projectName": "PiercingWailSound",
+      "projectPath": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Spire 2\\mods\\PiercingWailSound\\PiercingWailSound.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Spire 2\\mods\\PiercingWailSound\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Alchyr.Sts2.BaseLib": {
+            "target": "Package",
+            "version": "[*, )"
+          },
+          "GodotSharp": {
+            "target": "Package",
+            "version": "[4.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.15, 9.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.15, 9.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.15, 9.0.15]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

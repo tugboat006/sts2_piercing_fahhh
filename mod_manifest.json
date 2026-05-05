@@ -1,0 +1,11 @@
+{
+  "id": "PiercingWailSound",
+  "name": "Piercing Wail Sound",
+  "author": "YourName",
+  "description": "Plays a custom sound effect when Piercing Wail is played in combat.",
+  "version": "v1.0.0",
+  "has_pck": false,
+  "has_dll": true,
+  "dependencies": ["BaseLib"],
+  "affects_gameplay": false
+}

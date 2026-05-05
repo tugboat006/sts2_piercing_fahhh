@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PiercingWailSound/1.0.0": {
+        "dependencies": {
+          "Alchyr.Sts2.BaseLib": "3.1.0",
+          "GodotSharp": "4.4.0"
+        },
+        "runtime": {
+          "PiercingWailSound.dll": {}
+        }
+      },
+      "Alchyr.Sts2.BaseLib/3.1.0": {
+        "runtime": {
+          "lib/net9.0/BaseLib.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "GodotSharp/4.4.0": {
+        "runtime": {
+          "lib/net8.0/GodotSharp.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PiercingWailSound/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alchyr.Sts2.BaseLib/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O30DoAe5NT9MCVyFqTjrx1GgsOBjKOj4BJduFFEwPcti82jqjEsjXO575QFzpokxFC0VDHUmijhBfz/Bc2+cVg==",
+      "path": "alchyr.sts2.baselib/3.1.0",
+      "hashPath": "alchyr.sts2.baselib.3.1.0.nupkg.sha512"
+    },
+    "GodotSharp/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4CQWLbgUVXU/yQjKafkIs204kVd3R4D6qnYcwC9HHv33xfAninl3j0AcPQgFU2eVmGYNEHnIXUZtrZh7WU5tig==",
+      "path": "godotsharp/4.4.0",
+      "hashPath": "godotsharp.4.4.0.nupkg.sha512"
+    }
+  }
+}
