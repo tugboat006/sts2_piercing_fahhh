@@ -1,6 +1,8 @@
 # sts2_piercing_fahhh
 
-A mod for Slay the Spire 2 that plays a custom "FAHHH" sound effect when Piercing Wail is played in combat.
+**Author:** tugboat006
+
+A mod for Slay the Spire 2 that plays a custom sound effect when Piercing Wail is played in combat.
 
 ## Requirements
 - [BaseLib](https://github.com/Alchyr/BaseLib-StS2/releases) — must be installed before this mod will work
@@ -8,32 +10,17 @@ A mod for Slay the Spire 2 that plays a custom "FAHHH" sound effect when Piercin
 ## Installation
 
 ### Step 1 — Find your Slay the Spire 2 mods folder
-The mods folder is located at:
+On Windows, your mods folder is typically located at:
 
-**Windows:** C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\mods\
+`C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\mods\`
 
 If the `mods` folder doesn't exist, create it yourself.
 
 ### Step 2 — Install BaseLib
-Download the latest release of BaseLib from [here](https://github.com/Alchyr/BaseLib-StS2/releases).
-Place the downloaded files into: mods\BaseLib\
+Download the latest release of BaseLib [here](https://github.com/Alchyr/BaseLib-StS2/releases) and place the files into a `BaseLib` folder inside your mods folder.
 
 ### Step 3 — Install this mod
-Download this mod and place the folder into: mods\sts2_piercing_fahhh\
-
-Your mods folder should look like this:
-mods
-├── BaseLib
-│   ├── BaseLib.dll
-│   ├── BaseLib.pck
-│   └── BaseLib.json
-└── sts2_piercing_fahhh
-   ├── PiercingWailSound.dll
-   ├── mod_manifest.json
-   ├── Code
-   └── assets
-      └── audio
-         └── piercing_wail_sfx.ogg
+Download this mod and place the folder into your mods folder alongside BaseLib.
 
 ### Step 4 — Launch with mods
 In Steam, click **Play → Load with Mods**, make sure the mod is enabled, and start a run with the Silent.
