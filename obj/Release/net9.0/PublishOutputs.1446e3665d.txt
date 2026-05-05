@@ -1,5 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\mods\PiercingWailSound\bin\Release\net9.0\publish\PiercingWailSound.dll
-C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\mods\PiercingWailSound\bin\Release\net9.0\publish\PiercingWailSound.deps.json
-C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\mods\PiercingWailSound\bin\Release\net9.0\publish\PiercingWailSound.pdb
-C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\mods\PiercingWailSound\bin\Release\net9.0\publish\BaseLib.dll
-C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\mods\PiercingWailSound\bin\Release\net9.0\publish\GodotSharp.dll
